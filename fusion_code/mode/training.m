@@ -34,7 +34,7 @@ clear LSR_t3
 %设置参数
 model_parameter.r=256;
 model_parameter.rmax=65535;
-model_parameter.maxIP=5;
+model_parameter.maxIP=20;
 model_parameter.mu=1e-3;
 model_parameter.lambda_s=0.15;
 model_parameter.lambda_x=1e-3;
@@ -45,7 +45,7 @@ model_parameter.beta_y=1e-3;clc
 model_parameter.beta_w=1e-3;
 model_parameter.ksi=0.05;
 model_parameter.K=10;               %分组数
-model_parameter.width_of_patch=8;  %每个patch的宽度
+model_parameter.width_of_patch=4;  %每个patch的宽度
 model_parameter.n_iteration=30;
 model_parameter.change_threshold=0.005;
 model_parameter.sigma=1e-4;
